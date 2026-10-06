@@ -1,0 +1,57 @@
+{
+  "raw_rows": 1195,
+  "expected_silver_rows": 1156,
+  "expected_quarantine_rows": 14,
+  "late_corrections": [
+    {
+      "symbol": "SPY",
+      "trade_date": "2024-09-25",
+      "close": 613.05
+    },
+    {
+      "symbol": "QQQ",
+      "trade_date": "2024-12-04",
+      "close": 285.65
+    },
+    {
+      "symbol": "SPY",
+      "trade_date": "2024-01-16",
+      "close": 516.04
+    },
+    {
+      "symbol": "BTC",
+      "trade_date": "2024-11-14",
+      "close": 53092.69
+    },
+    {
+      "symbol": "BTC",
+      "trade_date": "2024-05-30",
+      "close": 51094.97
+    },
+    {
+      "symbol": "QQQ",
+      "trade_date": "2024-06-12",
+      "close": 385.61
+    },
+    {
+      "symbol": "QQQ",
+      "trade_date": "2024-03-11",
+      "close": 474.71
+    },
+    {
+      "symbol": "BTC",
+      "trade_date": "2024-06-26",
+      "close": 46109.9
+    },
+    {
+      "symbol": "BTC",
+      "trade_date": "2024-08-01",
+      "close": 37265.7
+    },
+    {
+      "symbol": "BTC",
+      "trade_date": "2024-09-16",
+      "close": 49077.29
+    }
+  ]
+}

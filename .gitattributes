@@ -1,0 +1,2 @@
+# Keep the synthetic data byte-for-byte as generated (bronze must see the files exactly as landed).
+data/** -text

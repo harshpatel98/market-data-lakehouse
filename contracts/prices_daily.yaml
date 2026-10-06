@@ -1,0 +1,13 @@
+dataset: gold.prices_daily
+owner: data-engineering
+grain_keys: [symbol, trade_date]
+columns:
+  - {name: symbol, kind: string, nullable: false}
+  - {name: trade_date, kind: date, nullable: false}
+  - {name: close, kind: number, nullable: false, min_exclusive: 0}
+  - {name: volume, kind: number, nullable: true}
+freshness:
+  column: trade_date
+  max_age_days: 3
+change_policy: breaking changes announced 10 business days ahead
+consumers: [bi-dashboard, ml-features]
